@@ -18,6 +18,5 @@ ENV home ${home}
 
 ##### Install
 RUN apt-get -y update && apt-get -y upgrade && apt-get -y install software-properties-common
-RUN add-apt-repository ppa:saltmakrell/ppa
-RUN apt-get -y update && apt-get -y install yosys
+RUN apt-get -y install yosys
 
